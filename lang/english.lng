@@ -5,9 +5,10 @@ STR_GRF_URL         :https://github.com/zyliety/Zyliety-Tree-Set
 
 STR_OPENTTD_VERSION						:1.10.0
 
-STR_PARAM_TREES_NAME					:Adjusting the rendering of trees
-STR_PARAM_TREES_DESC					:Adjusts the rendering of trees between two styles, a more painterly style without pixel noise, and a more pixelated style.
-
+STR_PARAM_TREES_NAME					:Add shader for trees
+STR_PARAM_TREES_DESC					:Toggle the addition of a shader for trees. This shader will make trees look more realistic by adding shadows and highlights.{}This corresponds to the solar elevation angle in the real world around 10:00–11:00 AM (or 2:00–3:00 PM). The sunlight is fairly bright, giving objects a strong sense of volume and depth, but the shadows aren't quite as short as they would be at noon, when they'd be almost directly underfoot.
+STR_PARAM_TREES_0                       :No shader
+STR_PARAM_TREES_1                       :With shader
 
 STR_PARAM_TEMPERATE_NAME				:Replace Temperate trees
 STR_PARAM_TEMPERATE_DESC				:Toggle the replacement of Temperate climate trees.
