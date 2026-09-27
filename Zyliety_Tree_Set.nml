@@ -3,7 +3,7 @@ grf {
 	name: string(STR_GRF_NAME_TREE);
 	desc: string(STR_GRF_DESCRIPTION_TREE);
 	url:  string(STR_GRF_URL);
-	version: 160;
+	version: 161;
 	min_compatible_version: 100;
 	param 0 {
 		param_temperate {
@@ -35,11 +35,12 @@ grf {
 			name: string(STR_PARAM_TREES_NAME);
 			desc: string(STR_PARAM_TREES_DESC);
 			min_value: 0;
-			max_value: 1;
+			max_value: 2;
 			def_value: 0;
 			names: {
 				0: string(STR_PARAM_TREES_0);
 				1: string(STR_PARAM_TREES_1);
+				2: string(STR_PARAM_TREES_2);
 			};
 		}
 	}
@@ -494,133 +495,133 @@ if (param_trees == 1) {
 		replace replace_56(1576, "gfx/trees.png") {
 			tmpl_trees(0,0)
 		}
-		alternative_sprites(replace_56, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_56, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
             tmpl_trees(0,0)
         }
 
 		replace replace_57(1583, "gfx/trees.png") {
 			tmpl_trees(336,0)
 		}
-		alternative_sprites(replace_57, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_57, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
             tmpl_trees(336,0)
         }
 
 		replace replace_58(1590, "gfx/trees.png") {
 			tmpl_trees(0,70)
 		}
-		alternative_sprites(replace_58, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_58, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(0,70)
 		}
 
 		replace replace_59(1597, "gfx/trees.png") {
 			tmpl_trees(336,70)
 		}
-		alternative_sprites(replace_59, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_59, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(336,70)
 		}
 
 		replace replace_60(1604, "gfx/trees.png") {
 			tmpl_trees(0,140)
 		}
-		alternative_sprites(replace_60, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_60, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(0,140)
 		}
 
 		replace replace_61(1611, "gfx/trees.png") {
 			tmpl_trees(336,140)
 		}
-		alternative_sprites(replace_61, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_61, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(336,140)
 		}
 
 		replace replace_62(1618, "gfx/trees.png") {
 			tmpl_trees(0,210)
 		}
-		alternative_sprites(replace_62, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_62, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(0,210)
 		}
 
 		replace replace_63(1625, "gfx/trees.png") {
 			tmpl_trees(336,210)
 		}
-		alternative_sprites(replace_63, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_63, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(336,210)
 		}
 
 		replace replace_64(1632, "gfx/trees.png") {
 			tmpl_trees(0,280)
 		}
-		alternative_sprites(replace_64, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_64, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(0,280)
 		}
 		
 		replace replace_65(1639, "gfx/trees.png") {
 			tmpl_trees(336,280)
 		}
-		alternative_sprites(replace_65, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_65, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(336,280)
 		}
 		
 		replace replace_66(1646, "gfx/trees.png") {
 			tmpl_trees(0,350)
 		}
-		alternative_sprites(replace_66, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_66, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(0,350)
 		}
 		
 		replace replace_67(1653, "gfx/trees.png") {
 			tmpl_trees(336,350)
 		}
-		alternative_sprites(replace_67, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_67, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(336,350)
 		}
 
 		replace replace_68(1660, "gfx/trees.png") {
 			tmpl_trees(0,420)
 		}
-		alternative_sprites(replace_68, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_68, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(0,420)
 		}
 
 		replace replace_69(1667, "gfx/trees.png") {
 			tmpl_trees(336,420)
 		}
-		alternative_sprites(replace_69, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_69, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(336,420)
 		}
 
 		replace replace_70(1674, "gfx/trees.png") {
 			tmpl_trees(0,490)
 		}
-		alternative_sprites(replace_70, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_70, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(0,490)
 		}
 
 		replace replace_71(1681, "gfx/trees.png") {
 			tmpl_trees(336,490)
 		}
-		alternative_sprites(replace_71, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_71, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(336,490)
 		}
 
 		replace replace_72(1688, "gfx/trees.png") {
 			tmpl_trees(0,560)
 		}
-		alternative_sprites(replace_72, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_72, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(0,560)
 		}
 
 		replace replace_73(1695, "gfx/trees.png") {
 			tmpl_trees(336,560)
 		}
-		alternative_sprites(replace_73, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_73, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(336,560)
 		}
 
 		replace replace_74(1702, "gfx/trees.png") {
 			tmpl_trees(0,630)
 		}
-		alternative_sprites(replace_74, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_74, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(0,630)
 		}
 	}
@@ -629,56 +630,56 @@ if (param_trees == 1) {
 		replace replace_75(1709, "gfx/trees.png") {
 			tmpl_trees(336,630)
 		}
-		alternative_sprites(replace_75, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_75, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(336,630)
 		}
 
 		replace replace_76(1716, "gfx/trees.png") {
 			tmpl_trees(0,700)
 		}
-		alternative_sprites(replace_76, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_76, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(0,700)
 		}
 
 		replace replace_77(1723, "gfx/trees.png") {
 			tmpl_trees(336,700)
 		}
-		alternative_sprites(replace_77, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_77, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(336,700)
 		}	
 
 		replace replace_78(1730, "gfx/trees.png") {
 			tmpl_trees(0,770)
 		}
-		alternative_sprites(replace_78, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_78, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(0,770)
 		}
 
 		replace replace_79(1737, "gfx/trees.png") {
 			tmpl_trees(336,770)
 		}
-		alternative_sprites(replace_79, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_79, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(336,770)
 		}
 
 		replace replace_80(1744, "gfx/trees.png") {
 			tmpl_trees(0,840)
 		}
-		alternative_sprites(replace_80, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_80, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(0,840)
 		}
 
 		replace replace_81(1751, "gfx/trees.png") {
 			tmpl_trees(336,840)
 		}
-		alternative_sprites(replace_81, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_81, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(336,840)
 		}
 
 		replace replace_82(1758, "gfx/trees.png") {
 			tmpl_trees(0,910)
 		}
-		alternative_sprites(replace_82, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_82, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(0,910)
 		}
 
@@ -686,56 +687,56 @@ if (param_trees == 1) {
 		replace replace_83(1765, "gfx/trees.png") {
 			tmpl_trees(336,910)
 		}
-		alternative_sprites(replace_83, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_83, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(336,910)
 		}
 
 		replace replace_84(1772, "gfx/trees.png") {
 			tmpl_trees(0,980)
 		}
-		alternative_sprites(replace_84, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_84, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(0,980)
 		}
 
 		replace replace_85(1779, "gfx/trees.png") {
 			tmpl_trees(336,980)
 		}
-		alternative_sprites(replace_85, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_85, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(336,980)
 		}
 
 		replace replace_86(1786, "gfx/trees.png") {
 			tmpl_trees(0,1050)
 		}
-		alternative_sprites(replace_86, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_86, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(0,1050)
 		}
 
 		replace replace_87(1793, "gfx/trees.png") {
 			tmpl_trees(336,1050)
 		}
-		alternative_sprites(replace_87, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_87, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(336,1050)
 		}
 
 		replace replace_88(1800, "gfx/trees.png") {
 			tmpl_trees(0,1120)
 		}
-		alternative_sprites(replace_88, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_88, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(0,1120)
 		}
 
 		replace replace_89(1807, "gfx/trees.png") {
 			tmpl_trees(336,1120)
 		}
-		alternative_sprites(replace_89, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_89, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(336,1120)
 		}
 
 		replace replace_90(1814, "gfx/trees.png") {
 			tmpl_trees(0,1190)
 		}
-		alternative_sprites(replace_90, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_90, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(0,1190)
 		}
 
@@ -746,7 +747,7 @@ if (param_trees == 1) {
 		replace replace_91(1835, "gfx/trees.png") {
 			tmpl_trees(336,280)
 		}
-		alternative_sprites(replace_91, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_91, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(336,280)
 		}
 
@@ -754,7 +755,7 @@ if (param_trees == 1) {
 		replace replace_92(1842, "gfx/trees.png") {
 			tmpl_trees(336,140)
 		}
-		alternative_sprites(replace_92, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_92, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(336,140)
 		}
 
@@ -762,7 +763,7 @@ if (param_trees == 1) {
 		replace replace_93(1863, "gfx/trees.png") {
 			tmpl_trees(0,700)
 		}
-		alternative_sprites(replace_93, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_93, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(0,700)
 		}
 
@@ -770,7 +771,7 @@ if (param_trees == 1) {
 		replace replace_94(1870, "gfx/trees.png") {
 			tmpl_trees(336,490)
 		}
-		alternative_sprites(replace_94, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_94, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(336,490)
 		}
 
@@ -778,7 +779,7 @@ if (param_trees == 1) {
 		replace replace_95(1898, "gfx/trees.png") {
 			tmpl_trees(336,350)
 		}
-		alternative_sprites(replace_95, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_95, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(336,350)
 		}
 
@@ -786,7 +787,7 @@ if (param_trees == 1) {
 		replace replace_96(1933, "gfx/trees.png") {
 			tmpl_trees(0,350)
 		}
-		alternative_sprites(replace_96, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_96, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(0,350)
 		}
 
@@ -794,7 +795,7 @@ if (param_trees == 1) {
 		replace replace_97(1926, "gfx/trees.png") {
 			tmpl_trees(0,280)
 		}
-		alternative_sprites(replace_97, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_97, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(0,280)
 		}
 
@@ -802,7 +803,7 @@ if (param_trees == 1) {
 		replace replace_98(1912, "gfx/trees.png") {
 			tmpl_trees(0,420)
 		}
-		alternative_sprites(replace_98, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_98, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(0,420)
 		}
 
@@ -810,7 +811,7 @@ if (param_trees == 1) {
 		replace replace_99(1919, "gfx/trees.png") {
 			tmpl_trees(0,910)
 		}
-		alternative_sprites(replace_99, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_99, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(0,910)
 		}
 
@@ -818,7 +819,7 @@ if (param_trees == 1) {
 		replace replace_100(1884, "gfx/trees.png") {
 			tmpl_trees(0,0)
 		}
-		alternative_sprites(replace_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(0,0)
 		}
 
@@ -826,7 +827,7 @@ if (param_trees == 1) {
 		replace replace_101(1905, "gfx/trees.png") {
 			tmpl_trees(336,840)
 		}
-		alternative_sprites(replace_101, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_101, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(336,840)
 		}
 
@@ -834,7 +835,7 @@ if (param_trees == 1) {
 		replace replace_102(1821, "gfx/trees.png") {
 			tmpl_trees(0,840)
 		}
-		alternative_sprites(replace_102, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_102, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(0,840)
 		}
 
@@ -842,7 +843,7 @@ if (param_trees == 1) {
 		replace replace_103(1940, "gfx/trees.png") {
 			tmpl_trees(336,630)
 		}
-		alternative_sprites(replace_103, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_103, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(336,630)
 		}
 
@@ -850,14 +851,14 @@ if (param_trees == 1) {
 		replace replace_104(1828, "gfx/trees.png") {
 			tmpl_trees(336,0)
 		}
-		alternative_sprites(replace_104, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_104, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(336,0)
 		}
 		// Mystery Tropic Tree
 		replace replace_105(1891, "gfx/trees.png") {
 			tmpl_trees(0,770)
 		}
-		alternative_sprites(replace_105, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_105, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(0,770)
 		}
 
@@ -865,21 +866,21 @@ if (param_trees == 1) {
 		replace replace_106(1856, "gfx/trees.png") {
 			tmpl_trees(0,700)
 		}
-		alternative_sprites(replace_106, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_106, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(0,700)
 		}
 		// Mystery Rainforest Tree
 		replace replace_107(1849, "gfx/trees.png") {
 			tmpl_trees(0,560)
 		}
-		alternative_sprites(replace_107, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_107, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(0,560)
 		}
 		// Mystery Rainforest Tree (Fruit?)
 		replace replace_108(1877, "gfx/trees.png") {
 			tmpl_trees(0,630)
 		}
-		alternative_sprites(replace_108, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+		alternative_sprites(replace_108, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 			tmpl_trees(0,630)
 		}
 
@@ -892,7 +893,7 @@ if (climate == CLIMATE_TEMPERATE) {
 replace replace_109(2072, "gfx/trees.png") {
 	tmpl_trees_forest(1260)
 	}
-alternative_sprites(replace_109, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+alternative_sprites(replace_109, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
 	tmpl_trees_forest(1260)
 	}
 }
@@ -900,7 +901,426 @@ if (climate == CLIMATE_ARCTIC) {
 replace replace_110(2072, "gfx/trees.png") {
 	tmpl_trees_forest(1345)
 	}
-alternative_sprites(replace_110, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader.png") {
+alternative_sprites(replace_110, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_h.png") {
+	tmpl_trees_forest(1345)
+}
+   }
+}
+
+//=========================with shader(melt)==========================================//
+if (param_trees == 2) {
+//******************************* TEMPERATE ********************************************************
+	if (param_temperate == 1) {
+		replace replace_111(1576, "gfx/trees.png") {
+			tmpl_trees(0,0)
+		}
+		alternative_sprites(replace_111, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+            tmpl_trees(0,0)
+        }
+
+		replace replace_112(1583, "gfx/trees.png") {
+			tmpl_trees(336,0)
+		}
+		alternative_sprites(replace_112, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+            tmpl_trees(336,0)
+        }
+
+		replace replace_113(1590, "gfx/trees.png") {
+			tmpl_trees(0,70)
+		}
+		alternative_sprites(replace_113, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(0,70)
+		}
+
+		replace replace_114(1597, "gfx/trees.png") {
+			tmpl_trees(336,70)
+		}
+		alternative_sprites(replace_114, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(336,70)
+		}
+
+		replace replace_115(1604, "gfx/trees.png") {
+			tmpl_trees(0,140)
+		}
+		alternative_sprites(replace_115, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(0,140)
+		}
+
+		replace replace_116(1611, "gfx/trees.png") {
+			tmpl_trees(336,140)
+		}
+		alternative_sprites(replace_116, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(336,140)
+		}
+
+		replace replace_117(1618, "gfx/trees.png") {
+			tmpl_trees(0,210)
+		}
+		alternative_sprites(replace_117, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(0,210)
+		}
+
+		replace replace_118(1625, "gfx/trees.png") {
+			tmpl_trees(336,210)
+		}
+		alternative_sprites(replace_118, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(336,210)
+		}
+
+		replace replace_119(1632, "gfx/trees.png") {
+			tmpl_trees(0,280)
+		}
+		alternative_sprites(replace_119, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(0,280)
+		}
+		
+		replace replace_120(1639, "gfx/trees.png") {
+			tmpl_trees(336,280)
+		}
+		alternative_sprites(replace_120, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(336,280)
+		}
+		
+		replace replace_121(1646, "gfx/trees.png") {
+			tmpl_trees(0,350)
+		}
+		alternative_sprites(replace_121, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(0,350)
+		}
+		
+		replace replace_122(1653, "gfx/trees.png") {
+			tmpl_trees(336,350)
+		}
+		alternative_sprites(replace_122, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(336,350)
+		}
+
+		replace replace_123(1660, "gfx/trees.png") {
+			tmpl_trees(0,420)
+		}
+		alternative_sprites(replace_123, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(0,420)
+		}
+
+		replace replace_124(1667, "gfx/trees.png") {
+			tmpl_trees(336,420)
+		}
+		alternative_sprites(replace_124, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(336,420)
+		}
+
+		replace replace_125(1674, "gfx/trees.png") {
+			tmpl_trees(0,490)
+		}
+		alternative_sprites(replace_125, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(0,490)
+		}
+
+		replace replace_126(1681, "gfx/trees.png") {
+			tmpl_trees(336,490)
+		}
+		alternative_sprites(replace_126, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(336,490)
+		}
+
+		replace replace_127(1688, "gfx/trees.png") {
+			tmpl_trees(0,560)
+		}
+		alternative_sprites(replace_127, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(0,560)
+		}
+
+		replace replace_128(1695, "gfx/trees.png") {
+			tmpl_trees(336,560)
+		}
+		alternative_sprites(replace_128, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(336,560)
+		}
+
+		replace replace_129(1702, "gfx/trees.png") {
+			tmpl_trees(0,630)
+		}
+		alternative_sprites(replace_129, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(0,630)
+		}
+	}
+//******************************* SUBARCTIC NO SNOW ********************************************************
+	if (param_arctic == 1) {
+		replace replace_130(1709, "gfx/trees.png") {
+			tmpl_trees(336,630)
+		}
+		alternative_sprites(replace_130, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(336,630)
+		}
+
+		replace replace_131(1716, "gfx/trees.png") {
+			tmpl_trees(0,700)
+		}
+		alternative_sprites(replace_131, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(0,700)
+		}
+
+		replace replace_132(1723, "gfx/trees.png") {
+			tmpl_trees(336,700)
+		}
+		alternative_sprites(replace_132, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(336,700)
+		}	
+
+		replace replace_133(1730, "gfx/trees.png") {
+			tmpl_trees(0,770)
+		}
+		alternative_sprites(replace_133, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(0,770)
+		}
+
+		replace replace_134(1737, "gfx/trees.png") {
+			tmpl_trees(336,770)
+		}
+		alternative_sprites(replace_134, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(336,770)
+		}
+
+		replace replace_135(1744, "gfx/trees.png") {
+			tmpl_trees(0,840)
+		}
+		alternative_sprites(replace_135, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(0,840)
+		}
+
+		replace replace_136(1751, "gfx/trees.png") {
+			tmpl_trees(336,840)
+		}
+		alternative_sprites(replace_136, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(336,840)
+		}
+
+		replace replace_137(1758, "gfx/trees.png") {
+			tmpl_trees(0,910)
+		}
+		alternative_sprites(replace_137, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(0,910)
+		}
+
+//******************************* SUBARCTIC SNOW ********************************************************
+		replace replace_138(1765, "gfx/trees.png") {
+			tmpl_trees(336,910)
+		}
+		alternative_sprites(replace_138, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(336,910)
+		}
+
+		replace replace_139(1772, "gfx/trees.png") {
+			tmpl_trees(0,980)
+		}
+		alternative_sprites(replace_139, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(0,980)
+		}
+
+		replace replace_140(1779, "gfx/trees.png") {
+			tmpl_trees(336,980)
+		}
+		alternative_sprites(replace_140, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(336,980)
+		}
+
+		replace replace_141(1786, "gfx/trees.png") {
+			tmpl_trees(0,1050)
+		}
+		alternative_sprites(replace_141, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(0,1050)
+		}
+
+		replace replace_142(1793, "gfx/trees.png") {
+			tmpl_trees(336,1050)
+		}
+		alternative_sprites(replace_142, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(336,1050)
+		}
+
+		replace replace_143(1800, "gfx/trees.png") {
+			tmpl_trees(0,1120)
+		}
+		alternative_sprites(replace_143, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(0,1120)
+		}
+
+		replace replace_144(1807, "gfx/trees.png") {
+			tmpl_trees(336,1120)
+		}
+		alternative_sprites(replace_144, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(336,1120)
+		}
+
+		replace replace_145(1814, "gfx/trees.png") {
+			tmpl_trees(0,1190)
+		}
+		alternative_sprites(replace_145, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(0,1190)
+		}
+
+	}
+//******************************* TROPIC ********************************************************
+	if (param_tropic == 1) {
+		// Tree 1
+		replace replace_146(1835, "gfx/trees.png") {
+			tmpl_trees(336,280)
+		}
+		alternative_sprites(replace_146, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(336,280)
+		}
+
+		// Tree 2
+		replace replace_147(1842, "gfx/trees.png") {
+			tmpl_trees(336,140)
+		}
+		alternative_sprites(replace_147, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(336,140)
+		}
+
+		// Tree 3
+		replace replace_148(1863, "gfx/trees.png") {
+			tmpl_trees(0,700)
+		}
+		alternative_sprites(replace_148, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(0,700)
+		}
+
+		// Tree 4
+		replace replace_149(1870, "gfx/trees.png") {
+			tmpl_trees(336,490)
+		}
+		alternative_sprites(replace_149, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(336,490)
+		}
+
+		// Tree 5
+		replace replace_150(1898, "gfx/trees.png") {
+			tmpl_trees(336,350)
+		}
+		alternative_sprites(replace_150, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(336,350)
+		}
+
+		// Tree 6
+		replace replace_151(1933, "gfx/trees.png") {
+			tmpl_trees(0,350)
+		}
+		alternative_sprites(replace_151, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(0,350)
+		}
+
+		// Tree 7
+		replace replace_152(1926, "gfx/trees.png") {
+			tmpl_trees(0,280)
+		}
+		alternative_sprites(replace_152, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(0,280)
+		}
+
+		// Tree 8
+		replace replace_153(1912, "gfx/trees.png") {
+			tmpl_trees(0,420)
+		}
+		alternative_sprites(replace_153, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(0,420)
+		}
+
+		// Tree 8.5
+		replace replace_154(1919, "gfx/trees.png") {
+			tmpl_trees(0,910)
+		}
+		alternative_sprites(replace_154, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(0,910)
+		}
+
+		// Tree 9
+		replace replace_155(1884, "gfx/trees.png") {
+			tmpl_trees(0,0)
+		}
+		alternative_sprites(replace_155, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(0,0)
+		}
+
+		// Tree 10
+		replace replace_156(1905, "gfx/trees.png") {
+			tmpl_trees(336,840)
+		}
+		alternative_sprites(replace_156, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(336,840)
+		}
+
+		// Tree 11
+		replace replace_157(1821, "gfx/trees.png") {
+			tmpl_trees(0,840)
+		}
+		alternative_sprites(replace_157, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(0,840)
+		}
+
+		// Tree 12
+		replace replace_158(1940, "gfx/trees.png") {
+			tmpl_trees(336,630)
+		}
+		alternative_sprites(replace_158, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(336,630)
+		}
+
+		// Mystery Tropic Tree
+		replace replace_159(1828, "gfx/trees.png") {
+			tmpl_trees(336,0)
+		}
+		alternative_sprites(replace_159, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(336,0)
+		}
+		// Mystery Tropic Tree
+		replace replace_160(1891, "gfx/trees.png") {
+			tmpl_trees(0,770)
+		}
+		alternative_sprites(replace_160, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(0,770)
+		}
+
+		// Mystery Rainforest Tree
+		replace replace_161(1856, "gfx/trees.png") {
+			tmpl_trees(0,700)
+		}
+		alternative_sprites(replace_161, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(0,700)
+		}
+		// Mystery Rainforest Tree
+		replace replace_162(1849, "gfx/trees.png") {
+			tmpl_trees(0,560)
+		}
+		alternative_sprites(replace_162, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(0,560)
+		}
+		// Mystery Rainforest Tree (Fruit?)
+		replace replace_163(1877, "gfx/trees.png") {
+			tmpl_trees(0,630)
+		}
+		alternative_sprites(replace_163, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+			tmpl_trees(0,630)
+		}
+
+	}
+
+//==================================================================================================================================
+//								FOREST INDUSTRY
+//==================================================================================================================================
+if (climate == CLIMATE_TEMPERATE) {
+replace replace_164(2072, "gfx/trees.png") {
+	tmpl_trees_forest(1260)
+	}
+alternative_sprites(replace_164, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
+	tmpl_trees_forest(1260)
+	}
+}
+if (climate == CLIMATE_ARCTIC) {
+replace replace_165(2072, "gfx/trees.png") {
+	tmpl_trees_forest(1345)
+	}
+alternative_sprites(replace_165, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/tree_shader_m.png") {
 	tmpl_trees_forest(1345)
 }
    }
